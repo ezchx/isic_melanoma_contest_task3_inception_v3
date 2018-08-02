@@ -19,6 +19,6 @@ Model configuration and training details are shown on the attached Jupyter noteb
 
 The model achieved an average classification accuracy of 80% based on the ISIC validation data set of 193 images.
 
-Final results for the ISIC 1,512 test images will be available when the contest concludes in early August 2018.
+Final results for the 1,512 test images will be available when the contest concludes in early August 2018.
 
 \* https://forum.isic-archive.com/t/task-3-supplemental-information/430
