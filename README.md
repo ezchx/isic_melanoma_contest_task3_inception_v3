@@ -9,13 +9,13 @@ The original image set was modified as follows:
 
 Augmented images and images with identical legion identifiers* were NOT separated between training and validation sets. While this caused some data leakage, performance on the ISIC test data set was slightly better for this model compared to the best performing model trained with the augmented images separated between training and validation sets.
 
-Model configuration and training details are shown on the attached Jupyter notebook.
-
 The model was trained for 2 epochs / 23 minutes on a GTA 1080ti GPU, resulting in the following performance:
 
 					Loss	  Accuracy
 			Training	0.0915	  0.9679
 			Validation	0.0902	  0.9660
+
+Model configuration and training details are shown on the attached Jupyter notebook.
 
 The model achieved an average classification accuracy of 80% based on the ISIC contest validation data set of 193 images.
 
