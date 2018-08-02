@@ -7,9 +7,9 @@ The original image set was modified as follows:
 - added 155 AKIEC images and 223 DF images
 - augmented the dataset by randomly rotating and zooming (80K total images)
 
-Augmented images and images with identical legion identifiers* were NOT separated between training and validation sets. While this caused some data leakage, performance on the ISIC test data set was slightly better for this model compared to the best performing model trained with the augmented images separated between training and validation sets.
+Augmented images and images with identical legion identifiers* were NOT separated between training and validation sets. While this caused some data leakage, performance on the ISIC test data set was slightly better for this model compared to the best performing model trained with separated images.
 
-The model was trained for 2 epochs / 23 minutes on a GTA 1080ti GPU, resulting in the following performance:
+This model was trained for 2 epochs / 23 minutes on a GTA 1080ti GPU, resulting in the following performance:
 
 					Loss	  Accuracy
 			Training	0.0915	  0.9679
