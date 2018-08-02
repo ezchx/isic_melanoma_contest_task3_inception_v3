@@ -1,6 +1,6 @@
 # isic_melanoma_contest_task3_inception_v3
 
-Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection – Task 3.
+Inception V3 classification model for ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection – Task 3.
 
 The original image set was modified as follows:
 
