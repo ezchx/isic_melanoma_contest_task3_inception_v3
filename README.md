@@ -5,7 +5,7 @@ Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanom
 The original image set was modified as follows:
 
 - added 155 AKIEC images and 223 DF images
-- augmented the dataset by randomly rotating and zooming resulting in 80K total images
+- augmented the dataset by randomly rotating and zooming (80K total images)
 
 Augmented images and images with identical legion identifiers* were NOT separated between training and validation sets. While this produced some data leakage, the performance on the ISIC test data set was slightly better for this model compared to the best performing model trained with the augmented images separated between training and validation sets.
 
