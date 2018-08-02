@@ -17,7 +17,7 @@ This model was trained for 2 epochs / 23 minutes on a GTA 1080ti GPU, resulting 
 
 Model configuration and training details are shown on the attached Jupyter notebook.
 
-The model achieved an average classification accuracy of 80% based on the ISIC validation data set of 193 images. Note that the validation and test images were rotated and zoomed identical to the training data and the predictions were averaged by image.
+The model achieved an average classification accuracy of 80% based on the ISIC validation data set of 193 images. Note that the validation and test images were rotated and zoomed identical to the augmented training data and the predictions were averaged by image.
 
 Final results for the 1,512 test images will be available when the contest concludes in early August 2018.
 
